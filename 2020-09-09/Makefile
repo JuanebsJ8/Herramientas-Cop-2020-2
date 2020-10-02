@@ -8,3 +8,5 @@ datos.txt: sumas.x
 
 fig.pdf: plot.py datos.txt
 	python3 plot.py
+clean:
+	rm -f a.out sumas.x datos.txt
