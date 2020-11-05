@@ -4,7 +4,7 @@ int main(void)
 {
 
   CONFIG config;
-  config.read("Data/init_data.txt");
+  config.read("init_data.txt");
 
   Vec_p Particles(config.nmolecules);
   Vec_i Cells(config.gridsize*config.gridsize,0);
